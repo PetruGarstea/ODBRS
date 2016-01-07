@@ -1,7 +1,7 @@
 # ODBRS
 Oracle DaTabase Backup Report System v0.0.1
 
-ODBRS provides oracle "full backup" report by demand. Its possible to add Oracle instances to ODBRS and generate the reports based on time and status.
+ODBRS provides oracle "rman full backup" report by demand. Its possible to add Oracle instances to ODBRS and generate the reports based on time and status.
 
 Time: current and history
 
