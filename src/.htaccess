@@ -1,0 +1,4 @@
+AuthName "ODBRS Access"
+AuthType Basic
+AuthUserFile /var/www/cgi-bin/odbrs/.htpasswd
+Require valid-user
