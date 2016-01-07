@@ -7,7 +7,7 @@ This installation describes how to setup ODBRS on RHEL/CentOS.
 5. Install cx_oracle library for python.
 6. Create /var/www/cgi-bin/odbrs directory.
 7. Copy the files from src folder to /var/www/cgi-bin/odbrs.
-8. Set 755 permission to all .py files in /var/www/cgi-bin/odbrs.
+8. Set 755 permission to all .py and *.sh files in /var/www/cgi-bin/odbrs.
 9. Copy odbrs.conf to /etc/httpd/conf.d
 10. Create login and password "htpasswd -c /var/www/cgi-bin/odbrs/.htpasswd username".
 11. Restart apache.
